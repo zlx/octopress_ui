@@ -2,10 +2,11 @@
 <link rel="stylesheet" href="stylesheets/index.css" type="text/css" media='all'/>
 
 <section class="well container">
-  <form action='/' class='form-horizontal'>
+  <div><span class='alert-section alert-success'></span></div>
+  <form action='/' method='post' class='form-horizontal'>
     <div class='control-group'>
       <span class='control-label'>标题</span>
-      <div class='controls'><input type='text' name='title' class='span5'/></div>
+      <div class='controls'><input type='text' name='title' class='span5 title'/></div>
     </div>
     <div class='control-group'>
       <span class='control-label'>正文</span>
@@ -15,11 +16,12 @@
     </div>
     <div class='control-group'>
       <div class='controls'>
-        <input class='btn btn-primary pull-right' type="submit" name="submit" value="submit" />
+        <input class='btn btn-primary pull-right submit-btn' type="button" value="发布" />
       </div>
     </div>
   </form>
 </section>
 
 <script src="epiceditor/js/epiceditor.min.js"></script>
+<script src="javascripts/jquery.min.js"></script>
 <script src='javascripts/index.js'></script>
