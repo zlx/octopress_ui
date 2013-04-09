@@ -12,6 +12,5 @@ A User Interface for octopress
 
 ## TODO
 
-1. 添加新博客
-2. 发布博客
-3. 博客编辑
+- 博客编辑
+- 如何更好得生成 markdown 文件
